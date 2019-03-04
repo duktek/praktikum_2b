@@ -1,23 +1,26 @@
+<<<<<<< HEAD
 \section{Perintah Navigasi}
 Perintah navigasi direktori
 
-\section{Yusniar Nur Syarif Sidiq\_1164089}
-\section{Teori}
+\section{Mhd Zulfikar Akram Nasution/1164081}
+\subsection{Teori}
 
 \begin{enumerate}
 
 \item Python memiliki dua Vaiabel yaitu integer dan string
-\begin{itemize}
+	\begin{itemize}
 	\item Contoh Variabel String
-\end{itemize}
+	\end{itemize}
 	\begin{verbatim}
-		x="YusniarNS"
+		x="Zulfikar"
 		y="D4 Teknik Informatika"
 		z=x + y
 		print(z)
 	\end{verbatim}
-	\subitem Output dari source code tersebut adalah YusniarNS D4 Teknik Informatika
+	\subitem Output dari source code tersebut adalah Zulfikar D4 Teknik Informatika
+	\begin{itemize}	
 	\item Contoh Variabel Integer
+	\end{itemize}	
 	\begin{verbatim}
 		x=5
 		y=10
@@ -32,50 +35,56 @@ Perintah navigasi direktori
 		x= input()
 		print("Hello, "+x)
 	\end{verbatim}
-\subitem Dimana ketika kita running akan meminta form inputan dan apabila saya berikan inputan YusniarNS maka output yang keluar adalah Hello YusniarNS di karenakan variabel x adalah inputan yang kita berikan.
+\subitem Dimana ketika kita running akan meminta form inputan dan apabila saya berikan inputan Zulfikar maka output yang keluar adalah Hello Zulfikar di karenakan variabel x adalah inputan yang kita berikan.
 \par
- \begin{itemize}
+\item Operator dasar aritmatika
+ 	\begin{itemize}
 	\item Aritmatika Pertambahan
-\end{itemize}
+	\end{itemize}
 		\begin{verbatim}
 			x=5
 			y=3
 			print(x+y)
 		\end{verbatim}
 	\subitem Ouput yang keluar dari source code tersebut adalah 8 di karenakan 5 ditambah 3 sama dengan 8.
-	
+	\begin{itemize}
 	\item Aritmatika Pengurangan
+	\end{itemize}	
 		\begin{verbatim}
 			x=5
 			y=3
 			print(x-y)
 		\end{verbatim}
 	\subitem Output yang keluar dari source code tersebut adalah 2.
-
-	\item Aritmatika Pengurangan
+	\begin{itemize}
+	\item Aritmatika Perkalian
+	\end{itemize}
 		\begin{verbatim}
 			x=5
 			y=3
 			print(x*y)
 		\end{verbatim}
 	\subitem Output yang keluar dari source code tersebut adalah 15.
-
+	\begin{itemize}
 	\item Aritmatika Pembagian
+	\end{itemize}
 		\begin{verbatim}
 			x=5
 			y=3
 			print(x/y)
 		\end{verbatim}
 	\subitem Output yang keluar dari source code tersebut adalah 1,67.
-
+	\begin{itemize}
 	\item Merubah Integer Ke String
+	\end{itemize}
 		\begin{verbatim}
 			x=5
 			y=3
 			z=str(x)+str(y)
 		\end{verbatim}
-
+	\begin{itemize}
 	\item Merubah String Ke Integer
+	\end{itemize}
 		\begin{verbatim}
 			x='5'
 			y='3'
@@ -84,9 +93,9 @@ Perintah navigasi direktori
 \par
 \item Python memiliki dua type pengulangan yaitu While Looping dan For Looping
 
-\begin{itemize}
+	\begin{itemize}
 	\item Contoh While Looping
-\end{itemize}
+	\end{itemize}
 		\begin{verbatim}
 			i = 1
 			while i < 6:
@@ -97,8 +106,9 @@ Perintah navigasi direktori
 		\begin{verbatim}
 			while i<6
 		\end{verbatim}
-	
+	\begin{itemize}
 	\item Contoh For Looping
+	\end{itemize}
 		\begin{verbatim}
 			for x in "banana":
 			print(x)
@@ -131,6 +141,7 @@ Perintah navigasi direktori
 		print(x/y)
 	\end{verbatim}
 \par
+\item Try except
 	\begin{verbatim}
 		x = 3
 		try:
@@ -143,4 +154,189 @@ Perintah navigasi direktori
 \subitem Output yang dikeluarkan adalah 3 dikarenakan variabel dari x bernilai 3.
 \end{enumerate}
 
+\subsection{Keterampilan Pemrograman}
+\begin{enumerate}
+	\item \lstinputlisting{src/chapter2/1164081_1.py}
 
+	\item \lstinputlisting{src/chapter2/1164081_2.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_3.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_4.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_5.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_6.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_7.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_8.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_9.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_10.py}
+	
+	\item \lstinputlisting{src/chapter2/1164081_11.py}
+\end{enumerate}
+\subsection{Keterampilan Penanganan Error}
+\begin{enumerate}
+	\item Contoh error yang saya dapat berada pada nomor 5. Dalam no 5 terdapat 7 variabel dan akan di tampilkan output berupa string. Pada awalnya saya membuat source code seperti berikut:
+Print(a,b,c,d,e,f,g)
+Sehingga output yang dikeluarkan adalah 1 1 6 4 0 8 1 dan masih berupa integer. Untuk menampilkan output String maka tambahkan source code str seperti contoh berikut :
+print(str(a)+str(b)+str(c)+str(d)+str(e)+str(f)+str(g))
+Output yang di keluarkan nantinya adalah 1164081 dengan type data String
+\par
+	\item \lstinputlisting{src/chapter2/1164081_2err.py}
+\end{enumerate}
+=======
+\section{Hagan Rowlenstino/1174040}
+\subsection{Teori}
+\begin{enumerate}
+	\item tipe data teks : ada string yaitu kumpulan karakter dan char adalah karakter. penulisannya harus diapit dengan tanda petik 1,2, ataupun 3
+   ('..'), (".."), ('''...'''), ("""...""")
+
+   tipe data angka : ada float yaitu bilangan pecahan dan integer yaitu bilangan bulat. penulisannya yaitu dengan menginisialisasikan nama
+   variable lalu masukkan angka (x = 30)
+
+   tipe data boolean : tipe yang memiliki dua nilai yaitu true dan false. penggunaannya huruf pertamanya harus kapital True dan False.
+
+   \item input().inisialisasikan input tersebut x = input() lalu print(x)
+
+   \item +,*,-,/. misal a = '10' maka integerr = int(a) dan misal a= 10 maka stringg = string(a)
+
+   \item while : untuk perulangan yang tidak pasti
+
+   \begin{verbatim}
+
+  i = 0
+	while True:
+    if i < 10:
+        print "Saat ini i bernilai: ", i
+        i = i + 1
+    elif i >= 10:
+        break
+   
+   for : untuk perulangan yang pasti
+	for i in range(0, 10):
+    print i
+    \end{verbatim}
+    \item 
+    \begin{verbatim}
+    if kondisi:
+	hasil
+
+   dan
+   if kondisi:
+	hasil
+	if kondisi:
+	    hasil
+	\end{verbatim}
+	\item type error = ubah tipe str jadi int
+
+	\item taruh try : diatas sintaks yang ingin diketahui jika terjadi error lalu enter dan tulis except: lalu tenkan enter 
+dan masukkan tulisaan yang akan ditampilkan.
+	\begin{verbatim}
+	a = 2
+	b = 'as'
+	try:
+    	print(a + b)
+	except TypeError:
+    	print("Integer dan String Tidak Dapat
+    	 Dijumlah Karena Berbeda Tipe")
+	\end{verbatim}
+
+\end{enumerate}
+\subsection{Keterampilan Pemrograman}
+\begin{enumerate}
+	\item \lstinputlisting{src/chapter2/1174040_1.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_2.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_3.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_4.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_5.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_6.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_7.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_8.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_9.py}
+
+	\item \lstinputlisting{src/chapter2/1174040_10.py}
+	
+	\item \lstinputlisting{src/chapter2/1174040_11.py}
+\end{enumerate}
+\subsection{Keterampilan Penanganan Error}
+\begin{enumerate}
+	\item TypeError yaitu error di dalam tipe data disaat melakukan substring dan ingin memasukkannya ke dalam kondisi for 
+	yang hanya menerima tipe int. jadi harus merubah tipe inputan yaitu string menjadi integer.
+
+	\item \lstinputlisting{src/chapter2/1174040_2err.py}
+\end{enumerate}
+
+ \section{Muhammad Iqbal Panggabean}
+\subsection{Teori}
+\begin{enumerate}
+    \item Jenis jenis variable phyton dan cara pemakaiannya
+Variabel merupakan tempat menyimpan data. Dalam Phyton terdapat beberapa variabel dengan berbagai type data diantaranya adalah variabel dengan type data number, string, dan boolean. Dalam phyton kita dapat membuat variable dengan cara sebagai gambar berikut
+   \lstinputlisting[firstline=8, lastline=12]{src/1174063_teori.py}
+    \item Kode untuk meminta input dari user dan bagaimana melakukan output ke layar
+ \lstinputlisting[firstline=67, lastline=68]{src/1174063_teori.py}
+    \item Operator dasar aritmatika
+Ada operator penambahan, pengurangan perkalian, perkalian, pembagian, modulus, perpangkatan, dan pembulatan decimal.
+\lstinputlisting[firstline=71, lastline=94]{src/1174063_teori.py}
+    \item Perulangan
+Terdapat dua jenis perulangan di dalam phyton yaitu perulangan while dan perulangan for
+ \lstinputlisting[firstline=97, lastline=99]{src/1174063_teori.py}
+ \lstinputlisting[firstline=102, lastline=105]{src/1174063_teori.py}
+    \item sintak Untuk memilih kondisi, dan kondisi didalam kondisi
+Pengambilan kondisi If yang digunakan untuk mengantisipasi kondisi yang terjadi saat program dijalankan dan menentukan tindakan apa yang akan diambil sesuai dengan kondisi.
+  \lstinputlisting[firstline=108, lastline=111]{src/1174063_teori.py}
+  \lstinputlisting[firstline=114, lastline=119]{src/1174063_teori.py}
+  \lstinputlisting[firstline=122, lastline=129]{src/1174063_teori.py}
+
+    \item Jenis-jenis error pada phyton
+Syntax Errors adalah keadaan dimana kode python mengalami kesalahan penulisan. 
+ZeroDivisonError adalah eror yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol.
+NameError adalah eror yang terjadi saat kode di eksekusi terhadap local name atau global name yang tidak terdefinisi. 
+TypeError adalah eror yang terjadi saat dilakukan eksekusi pada suatu operasi atau fungsi dengan type object yang tidak sesuai.
+
+    \item Cara memakai try except
+Cara pemakaian try except adalah sebagai berikut :
+\lstinputlisting[firstline=132, lastline=138]{src/1174063_teori.py}
+
+\end{enumerate}
+
+\subsection{praktek}
+\begin{enumerate}
+    \item Jawaban soal no 1
+    \lstinputlisting[firstline=11, lastline=20]{src/1174063_praktek.py}
+    \item Jawaban soal no 2
+    \lstinputlisting[firstline=24, lastline=28]{src/1174063_praktek.py}
+    \item Jawaban soal no 3
+    \lstinputlisting[firstline=33, lastline=37]{src/1174063_praktek.py}
+    \item Jawaban soal no 4
+    \lstinputlisting[firstline=40, lastline=41]{src/1174063_praktek.py}
+    \item Jawaban soal no 5
+    \lstinputlisting[firstline=44, lastline=56]{src/1174063_praktek.py}
+    \item Jawaban soal no 6
+    \lstinputlisting[firstline=59, lastline=60]{src/1174063_praktek.py}
+    \item Jawaban soal no 7
+    \lstinputlisting[firstline=63, lastline=64]{src/1174063_praktek.py}
+    \item Jawaban soal no 8
+    \lstinputlisting[firstline=67, lastline=71]{src/1174063_praktek.py}
+    \item Jawaban soal no 9
+    \lstinputlisting[firstline=74, lastline=74]{src/1174063_praktek.py}
+    \item Jawaban soal no 10
+    \lstinputlisting[firstline=77, lastline=77]{src/1174063_praktek.py}
+    \item Jawaban soal no 11
+    \lstinputlisting[firstline=80, lastline=80]{src/1174063_praktek.py}
+\end{enumerate}
+
+\subsection{Keterampilan dan penanganan eror}
+    \lstinputlisting[firstline=10, lastline=17]{src/errr2.py}
+>>>>>>> bd52919638f3be6eb154ac04a7c1450a59dc788f

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 \section{Perintah Navigasi}
 Perintah navigasi direktori
 
@@ -189,6 +190,151 @@ Output yang di keluarkan nantinya adalah 1164081 dengan type data String
 	\item \lstinputlisting{src/chapter2/1164081_2err.py}
 \end{enumerate}
 =======
+=======
+
+\section{IrvanRizkiansyah/1174043}
+	\subsection{Teori}
+		\begin{enumerate}
+			\item Pada python variabel tidak perlu dideklarasikan, pendeklarasian terjadi secara otomatis pada saat memberikan suatu nilai atau data ke variabel. Terdapat beberapa jenis tipe data variabel pada python, diantaranya :
+				\begin{itemize}
+					\item Python Numbers, dimana akan menyimpan data yang berupa angka. Penggunaan pada python sebagai berikut : 
+					var1 = 5
+					var2 = 48.9
+					
+					\item Python Text, dimana akan menyimpan data yang berupa teks ataupun karakter. Penggunaan pada python harus diapitkan oleh tanda petik ("..."), contohnya :
+					nama = "Irvan"
+					jnskelamin = "L"
+					
+					\item Python Boolean, dimana yang hanya memiliki 2 nilai yaitu True dan False saja. penggunaan pada python huruf pertama harus kapital, contohnya :
+					var3 = True
+					var4 = False
+				\end{itemize}
+
+			\item \begin{itemize}
+					\item Meminta input pada user
+					nama = input("Masukkan Nama Anda : ")
+					
+					\item menampilkan output
+					print "Hello Nama Saya Adalah",nama
+				\end{itemize}
+
+			\item \begin{itemize}
+					\item Operator tambah
+					a = b + c
+					
+					\item Operator kurang
+					a = b - c
+					
+					\item Operator kali
+					a = b * c
+					
+					\item Operator bagi
+					a = b / c
+					
+					\item Konversi integer ke string
+					konvVar = str(var1)
+					
+					\item Konversi string ke integer
+					konvVar = int(var2)
+				\end{itemize}
+
+			\item \begin{itemize}
+				\item Pengulangan for, kemampuan mengulang proses data menggunakan urutan apapun, seperti list.
+				contoh penggunaan pada Python dan contoh kode adalah :
+
+					\begin{verbatim}
+					for i in range(10):
+						print(i)
+					\end{verbatim}
+					
+				\item Pengulangan while, kemampuan mengulang proses data yang akan terus berlanjut jika kondisinya True.
+				contoh penggunaan pada Python dan contoh kode adalah :
+					\begin{verbatim}
+					i= 0
+					while i < 10 :
+						i=i+1
+						print ("loop ke =", i)
+					\end{verbatim}
+				\end{itemize}
+				
+			\item Pengambilan keputusan berguna untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi yang ada. Contohnya :
+				\begin{verbatim}
+				nilai = 9
+				if(nilai > 7):
+					print("Selamat Anda Lulus")
+				else:
+					print("Maaf Anda Tidak Lulus")
+				\end{verbatim}
+				
+				Dan untuk kondisi di dalam kondisi contohnya :
+				
+				\begin{verbatim}
+				gaji = 10000000
+				berkeluarga = True
+				if gaji > 3000000:
+					print "Gaji sudah diatas UMR"
+					if berkeluarga:
+							print "Wajib ikutan asuransi dan menabung untuk pensiun"
+						else:
+							print "Tidak perlu ikutan asuransi"
+				else:
+					print "Gaji belum UMR"
+				\end{verbatim}
+
+			\item \begin{itemize}
+					\item Syntax Errors, Salahnya dalam penulisan sintaks.
+					cara penanganannya adalah dengan menganalisa bagian kode yang error dan memperbaiki sintaks tersebut.
+					
+					\item Exceptions, error yang terjadi karena sintaks tidak dapat dieksekusi.
+					cara penanganannya adalah dengan menganalisa bagian kode yang error dan memperbaiki sintaks tersebut.
+				\end{itemize}
+			
+			\item Try Except adalah cara penanganan error pada Python.
+			Contohnya : 
+				\begin{verbatim}
+				x = 0
+				try:
+					x = 1 / 0
+				except Exception, e:
+					print e
+				\end{verbatim}
+
+		\end{enumerate}
+		
+	\subsection{Keterampilan Pemrograman}
+		\begin{enumerate}
+			\item \lstinputlisting{src/chapter2/1174043_1.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_2.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_3.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_4.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_5.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_6.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_7.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_8.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_9.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_10.py}
+			
+			\item \lstinputlisting{src/chapter2/1174043_11.py}
+		\end{enumerate}
+		
+	\subsection{Keterampilan Penanganan Error}
+		\begin{enumerate}
+			\item TypeError yaitu error di dalam tipe data disaat melakukan substring dan ingin memasukkannya ke dalam kondisi for 
+			yang hanya menerima tipe int. jadi harus merubah tipe inputan yaitu string menjadi integer.
+
+			\item \lstinputlisting{src/chapter2/1174043_2err.py}
+		\end{enumerate}
+
+>>>>>>> 4765bcefed0a926246b4cdd7e2fb1bd9a1e77eb0
 \section{Hagan Rowlenstino/1174040}
 \subsection{Teori}
 \begin{enumerate}
@@ -339,4 +485,291 @@ Cara pemakaian try except adalah sebagai berikut :
 
 \subsection{Keterampilan dan penanganan eror}
     \lstinputlisting[firstline=10, lastline=17]{src/errr2.py}
+<<<<<<< HEAD
 >>>>>>> bd52919638f3be6eb154ac04a7c1450a59dc788f
+=======
+
+
+
+\section{Luthfi M. Nabil/1174035}
+\subsection{Teori}
+\begin{enumerate}
+	\item Berikut merupakan jenis - jenis variabel yang terdapat pada python : \begin{itemize}	
+	\item Jenis variabel Teks (String) : Merupakan jenis variabel untuk menampung karakter. Cara penulisannya harus diapit dengan tanda petik 1 atau 2 ('..'), ("..")
+
+   \item Jenis variabel numeric(Integer, Float) : Jenis variabel ini menampung nilai berupa angka diantaranya bilangan bulat (integer) dan bilangan koma (float)  Penulisannya yaitu dengan menginisialisasikan nama
+   variable lalu masukkan angka (x = 30, x=3.3)
+
+   \item Jenis variabel pengkondisian : tipe yang memiliki dua nilai yaitu true dan false. penggunaannya huruf pertamanya harus kapital True dan False.
+   \end{itemize}
+   \item input().inisialisasikan input tersebut x = input() lalu print(x)
+
+   \item Operator dasar aritmatika dan mengubah string ke integer dan integer ke string : 
+\begin{itemize}
+\item Jenis - jenis operator aritmatika : Penjumlahan (+),Perkalian (*), Pengurangan(-),Pembagian(/).
+\item Convert int to string dan sebaliknya : misal a = '10' maka integer = int(a) dan misal a= 10 maka string = string(a)
+\end{itemize}
+
+   \item While : untuk perulangan yang memiliki kondisi lebih bebas/tidak terpaku
+
+   \begin{verbatim}
+
+     	i = 20
+	while True:
+        		print "Saat ini i bernilai: ", i
+        		i = i - 1
+   
+   for : untuk perulangan yang pasti
+	for i in range(0, 10):
+    		print i
+    \end{verbatim}
+    \item 
+    \begin{verbatim}
+    if kondisi:
+	hasil
+   dan
+   if kondisi:
+	hasil
+	if kondisi:
+	    hasil
+	\end{verbatim}
+	\item type error = ubah tipe str jadi int, index error = array index tidak diketahui
+
+	\item taruh try : diatas sintaks yang ingin diketahui jika terjadi error lalu enter dan tulis except: lalu tekan enter 
+dan masukkan tulisaan yang akan ditampilkan.
+	\begin{verbatim}
+	a = 2
+	b = 'Coba Coba'
+	try:
+    	print(a + b)
+	except TypeError:
+    	print("Integer dan String Tidak Dapat
+    	 Dijumlah Karena Berbeda Tipe")
+	\end{verbatim}
+
+\end{enumerate}
+\subsection{Keterampilan Pemrograman}
+\begin{enumerate}
+	\item \lstinputlisting{src/chapter2/1174035_1.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_2.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_3.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_4.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_5.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_6.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_7.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_8.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_9.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_10.py}
+	
+	\item \lstinputlisting{src/chapter2/1174035_11.py}
+\end{enumerate}
+\subsection{Keterampilan Penanganan Error}
+\begin{enumerate}
+	\item \begin{itemize} 
+		\item TypeError yaitu error di dalam variabel disaat melakukan substring dan ingin memasukkannya ke dalam kondisi for 
+	yang hanya menerima tipe int. jadi harus merubah tipe inputan yaitu string menjadi integer.
+		\item IndexError yaitu error saat array dengan index yang telah dipilih tidak ditemukan atau tidak memiliki nilai
+		\end{itemize}
+
+	\item \lstinputlisting{src/chapter2/1174035_2err.py}
+\end{enumerate}
+
+\section{Faisal Najib Abdullah 1174042}
+\subsection{Teori}
+\begin{enumerate}
+	\item Variabel merupakan tempat menyimpan data, sedangkan tipe data adalah jenis data yang terseimpan dalam variabel.
+	\lstinputlisting{src/chapter2/1174042_1,1.py}
+	Variabel x memiliki nilai aku, variable y memiliki nilai sayang, dan variabel z memiliki nilai najib. karna memiliki type data string maka kata kata tersebut jika di tambahkan berubah menjadi sebuah kalimat
+	
+	\item Input, untuk membuat kode input, pertama buat variabel x yang berisi input seperti pada contoh jika di run maka langsung diminta untuk memasukan NIM ketika di enter hasilnya berupa Hello, 1174042
+	\lstinputlisting{src/chapter2/1174042_1,2.py}
+	
+	\item Untuk merubah type data dari string ke integer, tambahkan kata int lalu kurung buka lalu nama variabel yang akan dirubah dan kurung tutup seperti pada contoh.
+	\lstinputlisting{src/chapter2/1174042_1,3.py}
+	
+	\item untuk perulangan disini menggunakan while variabel i bernilai 0, kemudian while i lebih kecil dari 6 jika benar maka akan terus dilakukan pengulangan dan jika salah tidak akan dilakukan pengulangan, i selalu bertambah 1, dan menampilkan nilai i. 
+	\lstinputlisting{src/chapter2/1174042_1,4.py}
+	
+	\item membuat 2 variabel a dan b, variabel a bernilai 200 dan b bernilai 33 jika b lebihbesar dari a maka akan menampilkan sesuai perintah seperti contoh.
+	\lstinputlisting{src/chapter2/1174042_1,5.py}
+	
+	\item Jenis error yang sering di alami pada python
+	\begin{itemize}
+	    \item menjumlahkan bilangan yang berbeda type data. Solosinya rubah dan sesuaikan type data yang dibutuhkan
+	    \item sepasi pada kondisi yang harus sejajar. Sejajarkan posisi sesuai kondisi
+	    \item Typo. Cek kembali agar tidak terjadi kesalahan code
+	\end{itemize}
+	
+	\item untuk menggunakan try, pertama tuliskan coba terlebih dahulu code apakah terjadi error atau tidak. Jika terjadi error copy TypeError kemudian tuliskan try sebelum line yg error, dibawah line yg error tuliskan except dan paste typeerror yang sebelumnya sudah di copy, kemudian tuliskan kenapa bisa terjadi error menggunakan katakata sendiri.
+	\lstinputlisting{src/chapter2/1174042_1,7.py}
+\end{enumerate}
+
+\subsection{Keterampilan Pemrograman}
+\begin{enumerate}
+    \item \lstinputlisting{src/chapter2/1174042_2,1.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,2.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,3.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,4.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,5.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,6.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,7.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,8.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,9.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,10.py}
+    
+    \item \lstinputlisting{src/chapter2/1174042_2,11.py}
+    
+\end{enumerate}
+
+\subsection{Keterampilan Penanganan Error}
+\begin{enumerate}
+    \item Pada saat mengerjakan praktek kedua ini error hanya pada kesalahan type data yaitu TypeError:, solusinya yaitu merumah type data.
+    
+    \item \lstinputlisting{src/chapter2/1174042_2err.py}
+    
+\end{enumerate}
+
+\section{Dika Sukma Pradana 1174050}
+\subsection{Teori}
+\begin{enumerate}
+	\item Jenis-jenis variable phyton dan cara pemakaiannya
+Variabel merupakan tempat menyimpan data. Dalam Phyton terdapat beberapa variabel dengan berbagai type data diantaranya adalah variabel dengan type data number, string, dan boolean. Dalam phyton kita dapat membuat variable dengan cara sebagai gambar berikut
+   \lstinputlisting[firstline=8, lastline=12]{src/1174050_teori.py}
+	\item Kode input user dan melakukan output ke layar
+ \lstinputlisting[firstline=67, lastline=68]{src/1174050_teori.py}
+	\item Operator dasar aritmatika
+Macam operator penambahan, pengurangan perkalian, perkalian, pembagian, modulus, perpangkatan, dan pembulatan decimal.
+\lstinputlisting[firstline=71, lastline=94]{src/1174050_teori.py}
+	\item Perulangan
+Macam perulangan di dalam phyton yaitu perulangan while dan perulangan for
+ \lstinputlisting[firstline=97, lastline=99]{src/1174050_teori.py}
+ \lstinputlisting[firstline=102, lastline=105]{src/1174050_teori.py}
+	\item sintak Untuk memilih kondisi, dan kondisi didalam kondisi
+Pengambilan kondisi If yang digunakan untuk mengantisipasi kondisi yang terjadi saat program dijalankan dan menentukan tindakan apa yang akan diambil sesuai dengan kondisi.
+  \lstinputlisting[firstline=108, lastline=111]{src/1174050_teori.py}
+  \lstinputlisting[firstline=114, lastline=119]{src/1174050_teori.py}
+  \lstinputlisting[firstline=122, lastline=129]{src/1174050_teori.py}
+
+	\item Jenis-jenis error pada phyton
+Syntax Errors adalah keadaan dimana kode python mengalami kesalahan penulisan. 
+ZeroDivisonError adalah eror yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol.
+NameError adalah eror yang terjadi saat kode di eksekusi terhadap local name atau global name yang tidak terdefinisi. 
+TypeError adalah eror yang terjadi saat dilakukan eksekusi pada suatu operasi atau fungsi dengan type object yang tidak sesuai.
+
+	\item Cara memakai try except
+Cara pemakaian try except :
+\lstinputlisting[firstline=132, lastline=138]{src/1174050_teori.py}
+
+\end{enumerate}
+
+\subsection{Praktek}
+\begin{enumerate}
+	\item Jawaban soal no 1
+	\lstinputlisting[firstline=11, lastline=20]{src/1174050_praktek.py}
+	\item Jawaban soal no 2
+	\lstinputlisting[firstline=24, lastline=28]{src/1174050_praktek.py}
+	\item Jawaban soal no 3
+	\lstinputlisting[firstline=33, lastline=37]{src/1174050_praktek.py}
+	\item Jawaban soal no 4
+	\lstinputlisting[firstline=40, lastline=41]{src/1174050_praktek.py}
+	\item Jawaban soal no 5
+	\lstinputlisting[firstline=44, lastline=56]{src/1174050_praktek.py}
+	\item Jawaban soal no 6
+	\lstinputlisting[firstline=59, lastline=60]{src/1174050_praktek.py}
+	\item Jawaban soal no 7
+	\lstinputlisting[firstline=63, lastline=64]{src/1174050_praktek.py}
+	\item Jawaban soal no 8
+	\lstinputlisting[firstline=67, lastline=71]{src/1174050_praktek.py}
+	\item Jawaban soal no 9
+	\lstinputlisting[firstline=74, lastline=74]{src/1174050_praktek.py}
+	\item Jawaban soal no 10
+	\lstinputlisting[firstline=77, lastline=77]{src/1174050_praktek.py}
+	\item Jawaban soal no 11
+	\lstinputlisting[firstline=80, lastline=80]{src/1174050_praktek.py}
+\end{enumerate}
+
+\subsection{Keterampilan dan Penanganan Eror}
+	\lstinputlisting[firstline=10, lastline=17]{src/errord1ka.py}
+
+	
+	
+\section{Ichsan Hizman Hardy}
+\subsection{Teori}
+\begin{enumerate}
+    \item Jenis jenis Variable phyton dan cara pemakaiannya 
+Variabel merupakan tempat menyimpan data, Dalam Phyton terdapat beberapa variabel dengan berbagai type data diantaranya adalah variabel dengan type data number, string, dan boolean. Dalam phyton kita dapat membuat variable dengan cara sebagai gambar berikut
+   \lstinputlisting[firstline=8, lastline=12]{src/1174034_ichsan_teori.py}
+    \item Kode untuk meminta input dari user dan bagaimana melakukan output ke layar
+ \lstinputlisting[firstline=67, lastline=68]{src/1174034_ichsan_teori.py}
+    \item Operator dasar aritmatika
+Ada operator penambahan, pengurangan perkalian, perkalian, pembagian, modulus, perpangkatan, dan pembulatan decimal.
+\lstinputlisting[firstline=71, lastline=94]{src/1174034_ichsan_teori.py}
+    \item Perulangan
+Terdapat dua jenis perulangan di dalam phyton yaitu perulangan while dan perulangan for
+ \lstinputlisting[firstline=97, lastline=99]{src/1174034_ichsan_teori.py}
+ \lstinputlisting[firstline=102, lastline=105]{src/1174034_ichsan_teori.py}
+    \item sintak Untuk memilih kondisi, dan kondisi didalam kondisi
+Pengambilan kondisi If yang digunakan untuk mengantisipasi kondisi yang terjadi saat program dijalankan dan menentukan tindakan apa yang akan diambil sesuai dengan kondisi.
+  \lstinputlisting[firstline=108, lastline=111]{src/1174034_ichsan_teori.py}
+  \lstinputlisting[firstline=114, lastline=119]{src/1174034_ichsan_teori.py}
+  \lstinputlisting[firstline=122, lastline=129]{src/1174034_ichsan_teori.py}
+
+    \item Jenis-jenis error pada phyton
+Syntax Errors adalah keadaan dimana kode python mengalami kesalahan penulisan. 
+ZeroDivisonError yaitu eror yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol.
+NameError yaitu eror yang terjadi saat kode di eksekusi terhadap local name atau global name yang tidak terdefinisi. 
+TypeError yaitu eror yang terjadi saat dilakukan eksekusi pada suatu operasi atau fungsi dengan type object yang tidak sesuai.
+
+    \item Cara memakai try except
+Cara pemakaian try except adalah sebagai berikut :
+\lstinputlisting[firstline=132, lastline=138]{src/1174034_ichsan_teori.py}
+
+\end{enumerate}
+
+\subsection{praktek}
+\begin{enumerate}
+    \item Jawaban soal no 1
+    \lstinputlisting[firstline=11, lastline=20]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 2
+    \lstinputlisting[firstline=24, lastline=28]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 3
+    \lstinputlisting[firstline=33, lastline=37]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 4
+    \lstinputlisting[firstline=40, lastline=41]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 5
+    \lstinputlisting[firstline=44, lastline=56]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 6
+    \lstinputlisting[firstline=59, lastline=60]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 7
+    \lstinputlisting[firstline=63, lastline=64]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 8
+    \lstinputlisting[firstline=67, lastline=71]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 9
+    \lstinputlisting[firstline=74, lastline=74]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 10
+    \lstinputlisting[firstline=77, lastline=77]{src/1174034_ichsan_praktek.py}
+    \item Jawaban soal no 11
+    \lstinputlisting[firstline=80, lastline=80]{src/1174034_ichsan_praktek.py}
+\end{enumerate}
+
+\subsection{Keterampilan dan penanganan eror}
+    \lstinputlisting[firstline=10, lastline=17]{src/errorrr.py}
+>>>>>>> 4765bcefed0a926246b4cdd7e2fb1bd9a1e77eb0

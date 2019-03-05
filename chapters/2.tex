@@ -804,3 +804,139 @@ Cara pemakaian try except adalah sebagai berikut :
 	\lstinputlisting{src/chapter2/1164074/1164074_2err.py}
 	\end{enumerate}
 
+\section {Kevin Natanael Nainggolan 1174059}
+	\subsection {Teori}
+		\begin {enumerate}
+			\item Jenis jenis variabel banyak, ada yang:
+				\begin {itemize}
+					\item ada yang variabel kosong
+					\item ada yang variabel dengan nilai yang terisi
+					\item ada variabel dengan tipe data yang sama
+				\end {itemize}
+			Penulisan variabel dalam Python memiliki aturan tertentu,
+				\begin {itemize}
+					\item Karakter pertama harus berupa huruf atau garis bawah/underscore \_
+					\item Karakter selanjutnya dapat berupa huruf, garis bawah/underscore \_ atau angka
+					\item Karakter pada nama variabel bersifat sensitif. Artinya huruf kecil dan huruf besar harus dibedakan.
+				\end {itemize}
+
+			\item kode untuk meminta input dari user adalah "input()" dan untuk melakukan output "print(yang akan ditampilkan)"
+			\item operator dasar aritmatika pada python ada +, *, -, /. cara mengubah values dari string ke integer dengan cara "int(variabel)" dan dari integer ke string dengan cara "str(variabel)"
+			\item perulangan pada python ada beberapa jenisnya
+				\begin {itemize}
+					\item while loops,
+					\item for loops
+				\end {itemize}
+				\begin {enumerate}
+					\item untuk while loops contoh kodenya seperti ini 
+						\begin {verbatim}
+							bin = 59
+							while bin < 1174:
+								print(bin)
+								bin += 4
+						\end {verbatim}
+						note : saat melakukan pengulangan pada statement while harus melakukan penambahan pada variabel atau sebutannya melakukan increament, jika tidak loop dari while sendiri akan beralnjut tanpa henti
+					\item untuk while loops dengan statement break seperti ini
+						\begin {verbatim}
+							bin = 59
+							while bin < 1174:
+								rint(bin)
+								if bin == 100:
+									break
+								bin += 4 
+						\end {verbatim}
+					\item untuk while loops dengan statement continue seperti ini
+						\begin {verbatim}
+							bin = 59
+							while bin < 1174:
+								bin += 4 
+								if bin == 100:
+								continue
+  							print(bin)
+						\end {verbatim}
+				\end{enumerate}
+				\begin{enumerate}
+					\item untuk for loops contoh kodenya seperti ini
+						\begin {verbatim}
+							fruits = ["belajar", "python", "mudah"]
+							for x in fruits:
+								print(x) 
+						\end{verbatim}
+					\item untuk for loops dengan pengulangan setiap karakter seperti ini
+						\begin{verbatim}
+							for x in python:
+								print(x)
+						\end{verbatim}
+					\item untuk for loops dengan break statement seperti ini
+						\begin{verbatim}
+							fruits = ["belajar", "python", "mudah"]
+							for x in fruits:
+								print(x) 
+								if x == "python":
+									break
+						\end{verbatim}
+						note : penempatan "(print (variabel))" akan mempengaruhi hasil
+					\item untuk for loops dengan continue statement seperti ini
+						\begin{verbatim}
+							fruits = ["belajar", "python", "mudah"]
+							for x in fruits:
+								if x == "python":
+									continue
+								print(x) 
+						\end{verbatim}
+				\end{enumerate}
+			\item cara penggunaan sintak untuk memilih kondisi ada beberapa jenisnya
+				\begin {itemize}
+					\item Kondisi dapat digunakan dalam beberapa cara, paling umum di "statement if" dan loop.
+					\item "statement if" ditulis dengan menggunakan kata kunci if.
+					\item Kata kunci elif adalah cara python mengatakan "jika kondisi sebelumnya tidak benar, maka coba kondisi ini".
+					\item Kata kunci "else" menangkap apa pun yang tidak tertangkap oleh kondisi sebelumnya.
+					\item Jika kita hanya memiliki satu pernyataan untuk dieksekusi, gunakan di baris yang sama dengan pernyataan if.
+					\item Kata kunci "and" adalah operator logis, dan digunakan untuk menggabungkan pernyataan bersyarat.
+					\item Kata kunci "or" adalah operator logis, dan digunakan untuk menggabungkan pernyataan bersyarat.
+				\end {itemize}
+			contoh penggunaan sintak kondisi di dalam kondisi
+				\begin{verbatim}
+					a = 200
+					b = 33
+					if b > a:
+					  print("b lebih besar dari a")
+					elif a == b:
+					  print("a dan b sama besar")
+					else:
+					  print("a lebih besar dari b")
+				\end{verbatim}
+			\item jenis error yang sering ditemui dan penyelesaiannya
+				\begin {enumerate}
+					\item variabel tidak tercantumkan, membuat variabel untuk dieksekusi.
+					\item tidak ada tkita ":" sesudah statement kondisi, menambahkan ":" pada akhir operasi di masing masing statement kondisi.
+					\item kode "print" tidak menjorok sesudah statement kondisi, sesuaikan dengan ketentuan biasanya sesudah mengetik ":" dan menekan enter, posisi krusor pengetikan akan otomatis menjorok.
+					\item salah ketik kode, memeriksa kembali kode dan memperbaiki yang salah ketik.
+				\end {enumerate}
+			\item cara memakai try except sangat mudah, except digunakan untuk menangani error saat operasi database atau pengaksesan indeks suatu list atau dictionary, dan berbagai kasus lainnya. Blok \"try\" memungkinkan kita menguji blok kode untuk kesalahan, blok \"except\" memungkinkan kita menangani kesalahan,blok "finally" memungkinkan kita menjalankan kode, terlepas dari hasil blok coba- dan kecuali.	
+		\end {enumerate}
+	\subsection {Keterampilan Pemrograman}
+	\begin{enumerate}
+		\item Jawaban Soal 1 
+			\lstinputlisting{src/chapter2/1174059/117405901.py}
+		\item Jawaban Soal 2
+			\lstinputlisting{src/chapter2/1174059/117405902.py}
+		\item Jawaban Soal 3
+			\lstinputlisting{src/chapter2/1174059/117405903.py}
+		\item Jawaban Soal 4
+			\lstinputlisting{src/chapter2/1174059/117405904.py}
+		\item Jawaban Soal 5
+			\lstinputlisting{src/chapter2/1174059/117405905.py}
+		\item Jawaban Soal 6
+			\lstinputlisting{src/chapter2/1174059/117405906.py}
+		\item Jawaban Soal 7
+			\lstinputlisting{src/chapter2/1174059/117405907.py}
+		\item Jawaban Soal 8
+			\lstinputlisting{src/chapter2/1174059/117405908.py} 
+		\item Jawaban Soal 9
+			\lstinputlisting{src/chapter2/1174059/117405909.py}
+		\item Jawaban Soal 10 
+			\lstinputlisting{src/chapter2/1174059/117405910.py}
+		\item Jawaban Soal 11
+			\lstinputlisting{src/chapter2/1174059/117405911.py}
+\end{enumerate}

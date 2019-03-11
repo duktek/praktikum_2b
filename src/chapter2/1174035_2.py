@@ -6,8 +6,7 @@ Created on Mon Mar  4 19:28:47 2019
 """
 print("Input : ")
 NPM = input()
-x=1
-print("Output : ")
-while x <= 87:
-    x+=1
-    print("Halo, "+NPM+" apa kabar?")
+y = NPM[5:7]
+g = int(y)
+for i in range(g):
+    print('Halo ' + NPM,'Apa Kabar?')

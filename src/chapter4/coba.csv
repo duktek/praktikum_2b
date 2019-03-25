@@ -1,0 +1,73 @@
+nama, prodi, kelas,alamat, telpon, ipk
+fathi, D4 TI, 3C, Sariasih 4, 082216644485, 3.50
+zulfikar, D4 TI, 3C, Sariasih 1, 082211644459, 3.00
+Alwan, D4 TI, 3A, Sariasih 4, 089775221335, 3.75
+Bayu, D3 TI, 3A, Sariasih 4, 087523146055, 3.30
+
+
+#Membuat data file CSV
+import csv
+
+siswa = [
+    ('arslan', 'A', 90),
+    ('bayu', 'B', 85),
+    ('niko', 'A', 80),
+    ('abdul', 'B', 90),
+    ('dahlan', 'C', 70)
+]
+
+# tentukan lokasi file, nama file, dan inisialisasi csv
+f = open('siswa.csv', 'w')
+w = csv.writer(f)
+w.writerow(('Nama','Kelas','Nilai'))
+
+# menulis file csv
+for s in siswa:
+    w.writerow(s)
+
+# menutup file csv
+f.close()
+
+#Hasil pembuatannya
+Nama,Kelas,Nilai
+arslan,A,90
+bayu,B,85
+niko,A,80
+abdul,B,90
+dahlan,C,70
+
+
+#Membaca data file CSV
+import csv
+
+# tentukan lokasi file, nama file, dan inisialisasi csv
+f = open('siswa.csv', 'r')
+reader = csv.reader(f)
+
+# membaca baris per baris
+for row in reader:
+    print row
+
+# menutup file csv
+f.close()
+
+#Hasil pembacaan datanya
+['Nama', 'Kelas', 'Nilai']
+['arslan', 'A', '90']
+['bayu', 'B', '85']
+['niko', 'A', '80']
+['abdul', 'B', '90']
+['dahlan', 'C', '70']
+
+#Pandas
+import pandas as pd
+import numpy as np
+data = np.array(['a','b','c','d'])
+karakter = pd.Series(data)
+print(karakter)
+
+#hasilnya
+0 a
+1 b
+2 c
+3 d

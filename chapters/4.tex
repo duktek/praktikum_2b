@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 \section{IrvanRizkiansyah/1174043}
 	\subsection{Pemahaman Teori}
 		\begin{enumerate}
@@ -122,7 +122,8 @@ Pandas (Python Data Analysis Library) adalah library open source yang digunakan 
 	\item \begin{verbatim} to_csv([path, index, sep, na_rep, …]) \end{verbatim}
 	Untuk membuat file CSV dari data yang ada	
 \end{itemize}
-=======
+
+
 \section{Faisal Najib Abdullah}
 \subsection{Pemahaman Teori}
 \begin{enumerate}
@@ -190,4 +191,58 @@ Pandas (Python Data Analysis Library) adalah library open source yang digunakan 
     
 
 \end{enumerate}
->>>>>>> c64ab529ff89ebc66e82900d0611abe5d2422d5a
+
+\section{Fathi Rabbani / 1164074}
+\subsection{Teori}
+\begin{enumerate}
+\item Sejarah dan Penjelasan CSV
+\subitem Penggunaan dari format file CSV itu sendiri untuk memudahkan pembuatan data dengan menggunakan tanda koma sebagai pembatas dari datanya agar mudah untuk dibaca pada kolom.
+\subitem CSV sendiri dibuat untuk dapat menangani pembuatan sejumlah data yang berukuran besar, mempermudah program dalam membaca datanya kedalam kolom - kolom. seperti contoh dalam membacanya menggunakan aplikasi Excel sehingga mempermudah dalam proses import dan eksport datanya. csv sendiri sudah ada pada tahun 1972 dengan pengembangnya adalah IBM namun penggunaannya masuk pada tahun 1983 yang berbarengan dengan adanya SuperCalc spreadsheet.
+
+\item Aplikasi CSV
+\begin{itemize}
+\item Microsoft Excel
+\item Open Office Calc
+\item Google Docs
+\item Libre Office
+\item Apache Open Office
+\end{itemize}
+
+\item Menulis dan Membaca csv di Excel atau Spreadsheet
+\subitem Menulis, cara menuliskan csv adalah dengan menggunakan tanda baca koma pada bagian data yang ingin dipisah contohnya \lstinputlisting[firstline=8, lastline=29]{src/chapter4/coba.csv}
+\subitem Membaca, file csv dapat dibaca pada program aplikasi Excel dengan menampilkan hasil data dari setiap data yang dipisah dengan tanda baca koma menjadi kolom - kolom hasilnya ada pada \ref{fig1}
+
+\item Library CSV
+\subitem CSV atau comma separated value adalah salah satu tipe file yang digunakan secara luas di dunia programming. Tidak hanya itu CSV pun sering digunakan dalam pengolahan informasi yang dihasilkan spreadsheet untuk diproses lebih lanjut melalui mesin analitik. CSV pun dianggap sebagai file yang agnostik karena dapat digunakan oleh berbagai database untuk proses backup data.
+
+\item Library Pandas
+\subitem pandas merupakan library pada pemrograman python yang berguna untuk mengolah dan meyediakan struktur data serta analisa data yang mudah untuk dibaca dan dipahami seperti pada struktur data tabel. pandas dapat melakukan proses perbandingan data, penggabungan dataset, penanganan dataset yang hilang dll. pandas dapat juga digunakan sebagai pemrosesan data Statistik dengan pembacaan datanya menggunakan struktur Spreadsheet.
+
+\item Fungsi pada Library CSV
+\begin{itemize}
+\item Menulis data CSV
+\lstinputlisting[firstline=8, lastline=29]{src/chapter4/coba.csv}
+\item Hasil dari menullis data CSV
+\lstinputlisting[firstline=31, lastline=37]{src/chapter4/coba.csv}
+\item Membaca data CSV
+\lstinputlisting[firstline=40, lastline=52]{src/chapter4/coba.csv}
+\item Hasil pembacaan data CSV
+\lstinputlisting[firstline=54, lastline=60]{src/chapter4/coba.csv}
+\end{itemize}
+
+\item Fungsi pada Library Pandas
+\begin{itemize}
+\item Kode
+\lstinputlisting[firstline=62, lastline=67]{src/chapter4/coba.csv}
+\item Hasil
+\lstinputlisting[firstline=69, lastline=73]{src/chapter4/coba.csv}
+\end{itemize}
+\end{enumerate}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1\textwidth]{figures/chapter4/1164074/1}
+	\caption{hasil csv pada Excel}
+	\label{fig1}
+\end{figure}
+
